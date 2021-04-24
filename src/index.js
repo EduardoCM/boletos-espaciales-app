@@ -4,9 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import RegistroBoletos from './componentes/RegistroBoletos';
+import Boletos from './componentes/Boletos'
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <RegistroBoletos />
+    <Boletos/>
   </React.StrictMode>,
   document.getElementById('root')
 );
